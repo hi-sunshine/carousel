@@ -2,7 +2,7 @@
 
 
 
-![](https://github.com/AnonymousBoy1/carousel/raw/master/img.png) 
+![](https://github.com/AnonymousBoy1/carousel/raw/master/image.png) 
 <br>
 This project provided a easy-used carousel plugin.
 
