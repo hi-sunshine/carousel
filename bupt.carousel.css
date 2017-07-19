@@ -1,0 +1,71 @@
+*{
+	margin:0;
+	padding:0; 
+	text-decoration: none;
+}
+body{
+	padding:20px;
+}
+.ui-bupt-carousel-container{
+	box-sizing: border-box;
+	border:3px solid #333;
+	overflow: hidden;
+	position: relative;
+}
+.ui-bupt-carousel-container .ui-bupt-carousel-imgWrap{
+	position: absolute;
+	z-index: 1;
+}
+.ui-bupt-carousel-container .ui-bupt-carousel-imgWrap img{
+	float: left;
+}
+.ui-bupt-carousel-container .ui-bupt-carousel-imgButtons{
+	position: absolute;
+	height:10px;
+	width:100px;
+	bottom:20px;
+	left:50%;
+	margin-left: -50px;
+	z-index:2;
+}
+.ui-bupt-carousel-container .ui-bupt-carousel-imgButtons span{
+	cursor: pointer;
+	float: left;
+	border:1px solid #fff;
+	width:10px;
+	height:10px;
+	border-radius:50%;
+	background: #333;
+	margin-left:5px;
+}
+.ui-bupt-carousel-container .ui-bupt-carousel-imgButtons .ui-bupt-carousel-active{
+	background: orangered;
+}
+.ui-bupt-carousel-container .ui-bupt-carousel-arrow{
+	width:40px;
+	height:40px;
+	position: absolute;
+	z-index:2;
+	top:180px;
+	line-height: 36px;
+	text-align: center;
+	font-size:36px;
+	font-weight: 500;
+	cursor: pointer;
+	display: none;
+	color: white;
+	text-decoration: none;
+	background-color: rgba(0,0,0,.3);
+}
+.ui-bupt-carousel-container .ui-bupt-carousel-arrow:hover{
+	background-color: rgba(0,0,0,.7);
+}
+.ui-bupt-carousel-container:hover .ui-bupt-carousel-arrow{
+	display: block;
+}
+#ui-bupt-carousel-prev{
+	left: 20px;
+}
+#ui-bupt-carousel-next{
+	right:20px;
+}

@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Bupt Carousel</title>
+	<link type="text/css" rel="stylesheet" href="./bupt.carousel.css" />
+</head>
+<body>
+	<div id="container">
+	</div>
+	<script type="text/javascript" src="./bupt.carousel.js"></script>
+	<script type="text/javascript">
+		var imgs = ['./imgs/1.jpg', './imgs/2.jpg', './imgs/3.jpg', './imgs/4.jpg', './imgs/5.jpg'];
+		var params = {
+			width: '700px',
+			height: '500px',
+			imgs:imgs,
+			interval: 300
+		};
+		carousel.init("container", params);
+	</script>
+</body>
+</html>
