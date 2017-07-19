@@ -8,7 +8,7 @@ This project provided a easy-used carousel plugin.
 
 Usage
 -----
-1. Import the `bupt.carousel.js` and `bupt.carousel.css`into your page.<br>
+1. Import the `bupt.carousel.css` and `bupt.carousel.js`into your page.<br>
 ```html
 <link type="text/css" rel="stylesheet" href="bupt.carousel.css" />
 <script type="text/javascript" src="bupt.carousel.js"></script>
