@@ -18,15 +18,15 @@ Usage
 ```html
   <div id="container"></div>
   <script type="text/javascript">
-		var imgs = ['./imgs/1.jpg', './imgs/2.jpg', './imgs/3.jpg', './imgs/4.jpg', './imgs/5.jpg'];
-		var params = {
-			width: '700px',              //the width of container div
-			height: '500px',             //the height of container div
-			imgs:imgs,                   //the array of images url
-			interval: 300                //control the switching effect, the speed of image slide to next one, value(300-1000, unit: ms)
-		};
-		carousel.init("container", params);
-	</script>
+	var imgs = ['./imgs/1.jpg', './imgs/2.jpg', './imgs/3.jpg', './imgs/4.jpg', './imgs/5.jpg'];
+	var params = {
+		width: '700px',              //the width of container div
+		height: '500px',             //the height of container div
+		imgs:imgs,                   //the array of images url
+		interval: 300                //control the switching effect, the speed of image slide to next one, value(300-1000, unit: ms)
+	};
+	carousel.init("container", params);
+  </script>
 ```
 
 
